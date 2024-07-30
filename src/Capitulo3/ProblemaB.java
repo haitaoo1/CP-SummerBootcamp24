@@ -6,7 +6,6 @@ public class ProblemaB {
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Leer entrada
         int num1 = scanner.nextInt();
         char op = scanner.next().charAt(0);
         int num2 = scanner.nextInt();
@@ -42,7 +41,6 @@ public class ProblemaB {
                 break;
         }
 
-        // Mostrar resultado
         if (esCero) {
             System.out.println("ERROR");
         } else {
