@@ -2,7 +2,7 @@ package Chapter4;
 
 import java.util.Scanner;
 
-public class ProblemB {
+public class ProblemaB {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
